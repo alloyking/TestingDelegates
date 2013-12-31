@@ -22,6 +22,7 @@
 		6306A55A1872027E009EC993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6306A5391872027E009EC993 /* UIKit.framework */; };
 		6306A5621872027E009EC993 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6306A5601872027E009EC993 /* InfoPlist.strings */; };
 		6306A5641872027E009EC993 /* DelegatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306A5631872027E009EC993 /* DelegatesTests.m */; };
+		6306A56F187202F2009EC993 /* MTSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306A56E187202F2009EC993 /* MTSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		6306A55F1872027E009EC993 /* DelegatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegatesTests-Info.plist"; sourceTree = "<group>"; };
 		6306A5611872027E009EC993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6306A5631872027E009EC993 /* DelegatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatesTests.m; sourceTree = "<group>"; };
+		6306A56D187202F2009EC993 /* MTSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSlider.h; sourceTree = "<group>"; };
+		6306A56E187202F2009EC993 /* MTSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		6306A5291872027E009EC993 = {
 			isa = PBXGroup;
 			children = (
+				6306A56D187202F2009EC993 /* MTSlider.h */,
+				6306A56E187202F2009EC993 /* MTSlider.m */,
 				6306A53B1872027E009EC993 /* Delegates */,
 				6306A55D1872027E009EC993 /* DelegatesTests */,
 				6306A5341872027E009EC993 /* Frameworks */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6306A54F1872027E009EC993 /* ViewController.m in Sources */,
+				6306A56F187202F2009EC993 /* MTSlider.m in Sources */,
 				6306A5461872027E009EC993 /* AppDelegate.m in Sources */,
 				6306A5421872027E009EC993 /* main.m in Sources */,
 			);

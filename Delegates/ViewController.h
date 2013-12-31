@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MTSlider.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <MTSliderDelegate>
 @end
